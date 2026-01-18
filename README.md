@@ -64,7 +64,7 @@ Metrics: Accuracy, Precision, Recall
 ---
 
 ## Repository Structure
-
+```text
 code/
 ├── EDA.ipynb
 ├── cohortselection.ipynb
@@ -74,7 +74,7 @@ code/
 ├── Model_2.ipynb
 └── finalisedcohortdata.ipynb
 
-
+```
 ---
 
 ## Authors
