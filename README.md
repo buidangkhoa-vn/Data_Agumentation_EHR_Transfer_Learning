@@ -3,8 +3,6 @@
 This project studies **Chronic Respiratory Disease (CRD)** diagnosis by combining  
 **chest X-ray (CXR) features** and **Electronic Health Records (EHR)** using machine learning.
 
-Course Project – HCMUT (2025–2026)
-
 ---
 
 ## Overview
@@ -45,7 +43,7 @@ Notebooks:
 - XGBClassifier / XGBRegressor for EHR reconstruction  
 
 ### Model 2 – ROS + XGBClassifier  
-**Contributor:** **Bùi Đăng Khoa**  
+**Contributor:** Bùi Đăng Khoa
 - Random Over-Sampling on training set only  
 - Evaluated with:
   - Image features only
@@ -79,7 +77,7 @@ code/
 
 ## Authors
 - Trần Thành Trọng – SMOTE + XGBoost (Model 1)
-- **Bùi Đăng Khoa** – ROS + XGBClassifier (Model 2)
+- Bùi Đăng Khoa – ROS + XGBClassifier (Model 2)
 
 Instructor: Nguyễn Tuấn Khôi, Ngô Hoàng Anh
 
