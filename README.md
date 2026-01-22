@@ -53,7 +53,7 @@ Notebooks:
 
 ## Results (Key Findings)
 - Image-only models suffer from severe class imbalance
-- SMOTE improves Recall for rare diseases
+- SMOTE combined with XGBClassifier/XGBRegressor helps rare diseases overcome near-zero Recall, while simultaneously optimizing the F1-score and enhancing disease detection capability.
 - **ROS + XGBClassifier + EHR gives the best Precision–Recall trade-off**
 - EHR features significantly improve detection of rare CRDs
 
