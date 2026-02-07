@@ -50,12 +50,12 @@ Notebooks:
 
 ## Data Augmentation
 
-### Model 1 – SMOTE + XGBoost  
+### Model 1 – Synthetic Minority Over-sampling Technique (SMOTE) + XGBoost  
 **Contributor:** Trần Thành Trọng  
 - SMOTE on image features  
 - XGBClassifier / XGBRegressor for EHR reconstruction  
 
-### Model 2 – ROS + XGBClassifier  
+### Model 2 – Random Over-Sampling (ROS) + XGBClassifier  
 **Contributor:** Bùi Đăng Khoa
 - Random Over-Sampling on training set only  
 - Evaluated with:
