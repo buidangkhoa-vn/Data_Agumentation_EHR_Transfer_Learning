@@ -1,24 +1,37 @@
-# EHR Transfer Learning for CRD Diagnosis
+# EHR Transfer Learning for Chronic Respiratory Disease Diagnosis
 
-This project studies **Chronic Respiratory Disease (CRD)** diagnosis by combining  
-**chest X-ray (CXR) features** and **Electronic Health Records (EHR)** using machine learning.
-
+This repository presents a machine learning framework for Chronic Respiratory Disease (CRD) diagnosis by integrating chest X-ray (CXR) features with Electronic Health Records (EHR).
+The work focuses on transfer learning and multimodal learning under severe class imbalance settings.
 ---
 
 ## Overview
-- Transfer learning (DenseNet) for CXR feature extraction
-- Multimodal learning: CXR + structured EHR
-- Focus on **class imbalance handling** for rare diseases
 
+Transfer learning with DenseNet for chest X-ray feature extraction
+
+Multimodal learning combining CXR features and structured EHR data
+
+Emphasis on class imbalance handling for rare respiratory diseases
+
+Evaluation on multiple CRD prediction tasks
 ---
 
-## Data
-- **MIMIC-IV**: EHR + ICD labels  
-- **MIMIC-CXR**: chest X-ray images  
-- **CheXpert**: pre-training for DenseNet  
+## Data Sources and Access Notice
 
-⚠️ Data not publicly released (PhysioNet access required).
+This project relies on the MIMIC-IV and MIMIC-CXR datasets, which contain a wide range of clinical records and chest X-ray images collected from intensive care unit patients.
 
+⚠️ Important Notice on Data Access
+
+The datasets used in this project are not publicly downloadable.
+
+Access to MIMIC-IV and MIMIC-CXR requires:
+
+Completion of the official PhysioNet credentialed health [data training](https://physionet.org/content/mimiciv/view-required-training/2.2/#1)
+
+An approved PhysioNet account
+
+Users must comply with all data use agreements and ethical guidelines defined by PhysioNet.
+
+For more information, please refer to the PhysioNet website.
 ---
 
 ## Pipeline (Baseline – Instructor)
@@ -35,7 +48,7 @@ Notebooks:
 
 ---
 
-## Data Augmentation (Student Work)
+## Data Augmentation
 
 ### Model 1 – SMOTE + XGBoost  
 **Contributor:** Trần Thành Trọng  
@@ -54,7 +67,7 @@ Notebooks:
 ## Results (Key Findings)
 - Image-only models suffer from severe class imbalance
 - SMOTE combined with XGBClassifier/XGBRegressor helps rare diseases overcome near-zero Recall, while simultaneously optimizing the F1-score and enhancing disease detection capability.
-- **ROS + XGBClassifier + EHR gives the best Precision–Recall trade-off**
+- ROS + XGBClassifier combined with EHR features demonstrates a favorable Precision–Recall trade-off.
 - EHR features significantly improve detection of rare CRDs
 
 Metrics: Accuracy, Precision, Recall, F1-score
@@ -79,7 +92,8 @@ code/
 - Trần Thành Trọng – SMOTE + XGBoost (Model 1)
 - Bùi Đăng Khoa – ROS + XGBClassifier (Model 2)
 
-Instructor: Nguyễn Tuấn Khôi, Ngô Hoàng Anh
+**Instructor**: Nguyễn Tuấn Khôi  
+**Co-Senior Supervisor**: Ngô Hoàng Anh
 
 ---
 
