@@ -92,8 +92,9 @@ code/
 - Trần Thành Trọng – SMOTE + XGBoost (Model 1)
 - Bùi Đăng Khoa – ROS + XGBClassifier (Model 2)
 
-Instructor: Nguyễn Tuấn Khôi
-Co-Senior Supervisor: Ngô Hoàng Anh
+**Instructor**: Nguyễn Tuấn Khôi  
+**Co-Senior Supervisor**: Ngô Hoàng Anh
+
 ---
 
 ## Reference
